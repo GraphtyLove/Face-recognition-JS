@@ -10,3 +10,7 @@ A simple javascript project that recognize faces and emotion on those faces from
 
 ## Library
 [Face API](https://github.com/justadudewhohacks/face-api.js)
+
+## Note
+
+**Work with Google Chrome**. Can have some webcam issues with firefox.
