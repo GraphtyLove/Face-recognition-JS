@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script defer src='assets/js/face-api.min.js'></script>
+    <!-- Load the face-api -->
+    <script src='assets/js/face-api.min.js'></script>
+    <!-- ! Use "defer" to load the script AFTER the loading of the document ! -->
     <script defer src="assets/js/script.js"></script>
     <title>Face recognition</title>
 </head>
@@ -19,6 +21,7 @@
     <main id='mainContainer'>
         <h2>Webcam</h2>
         <p>Please allow the browser to access to your webcam</p>
+        <!-- Use those values to fit with the model (720x560) -->
         <video id="video" width="720" height="560" autoplay></video>
     </main>
     <footer>
