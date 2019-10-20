@@ -21,5 +21,5 @@ To learn how to use a AI model with Javascript
 
 ## Note
 
-To make it work, you **have to put your files in a server** *(Localhost or "Live Server" from VsCode extention for exemple)*. Why? To avoid **CORS Same Origin** issues.
-**Work with Google Chrome & Firefox**. Can have some webcam issues with other browser.
+* To make it work, you **have to put your files in a server** *(Localhost or "Live Server" from VsCode extention for exemple)*. Why? To avoid **CORS Same Origin** issues.
+* **Work with Google Chrome & Firefox**. Can have some webcam issues with other browser.
