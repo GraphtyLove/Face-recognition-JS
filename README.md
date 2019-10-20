@@ -13,4 +13,4 @@ A simple javascript project that recognize faces and emotion on those faces from
 
 ## Note
 
-**Work with Google Chrome**. Can have some webcam issues with firefox.
+**Work with Google Chrome & Firefox**. Can have some webcam issues with other browsers.
