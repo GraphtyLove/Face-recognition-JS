@@ -32,7 +32,7 @@ video.addEventListener('play', () => {
     // Create a canvas
     const canvas = faceapi.createCanvasFromMedia(video)
     // Append the canvas to our "mainContainer" div
-    document.getElementById('main').append(canvas)
+    document.getElementById('mainContainer').append(canvas)
     // Save the size of our video html element and in an Object
     const canvasDisplaySize = { width: video.width, height: video.height }
     // Set the size of our graphical elements from the faceAPI
