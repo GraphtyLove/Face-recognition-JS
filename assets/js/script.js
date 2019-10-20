@@ -1,7 +1,7 @@
 // Select the video element from HTML
 const video = document.getElementById('video')
 
-
+// Configure webcam for each navigator
 navigator.getMedia = (
     navigator.getUserMedia
     || navigator.webkitGetUserMedia
@@ -17,12 +17,6 @@ const startVideo = () => {
         err => console.error(err)
     )
 }
-
-
-
-
-
-
 
 // Load all our models asynchronously, if all our Promises are resolved, run the startVideo function
 Promise.all([
