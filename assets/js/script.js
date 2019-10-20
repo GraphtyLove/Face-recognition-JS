@@ -1,29 +1,28 @@
 // Select the video element from HTML
 const video = document.getElementById('video')
 
+
+navigator.getMedia = (
+    navigator.getUserMedia
+    || navigator.webkitGetUserMedia
+    || navigator.mozGetUserMedia
+    || navigator.msGetUserMedia
+)
+
 // Turn on the webcam of the user and append the video stream to our video html element
 const startVideo = () => {
-    navigator.getUserMedia(
+    navigator.getMedia(
         { video: {} },
         stream => video.srcObject = stream,
         err => console.error(err)
     )
-        || navigator.webkitGetUserMedia(
-            { video: {} },
-            stream => video.srcObject = stream,
-            err => console.error(err)
-        )
-        || navigator.mozGetUserMedia(
-            { video: {} },
-            stream => video.srcObject = stream,
-            err => console.error(err)
-        )
-        || navigator.msGetUserMedia(
-            { video: {} },
-            stream => video.srcObject = stream,
-            err => console.error(err)
-        )
 }
+
+
+
+
+
+
 
 // Load all our models asynchronously, if all our Promises are resolved, run the startVideo function
 Promise.all([
