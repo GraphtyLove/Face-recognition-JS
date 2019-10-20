@@ -18,7 +18,7 @@ const startVideo = () => {
     )
 }
 
-// Load all our models asynchronously, if all our Promises are resolved, run the startVideo function
+// Load all our models asynchronously, if all our Promises are resolved, run the startVideo() function
 Promise.all([
     faceapi.nets.tinyFaceDetector.loadFromUri('./assets/models'),
     faceapi.nets.faceLandmark68Net.loadFromUri('./assets/models'),
