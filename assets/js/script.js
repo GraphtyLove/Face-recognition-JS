@@ -1,7 +1,7 @@
 // Select the video element from HTML
 const video = document.getElementById('video')
 
-// Configure webcam for each navigator
+// Configure webcam for each browser
 navigator.getMedia = (
     navigator.getUserMedia
     || navigator.webkitGetUserMedia
