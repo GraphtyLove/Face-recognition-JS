@@ -6,7 +6,7 @@ A simple javascript project that recognize faces and emotion on those faces from
 
 ## Why?
 
-To learn how to use a AI model with Javascript
+To learn how to use an AI model with Javascript
 
 ## Who?
 
